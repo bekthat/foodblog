@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3de7302-4ae4-49df-a7b4-75bc31db9885" name="Changes" comment="FoodBlog - start">
+      <change afterPath="$PROJECT_DIR$/cooking/templates/cooking/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cooking/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cooking/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodblog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cooking/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cooking/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodblog/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -46,6 +57,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -76,7 +88,9 @@
       <updated>1748449266348</updated>
       <workItem from="1748449267358" duration="3961000" />
       <workItem from="1748453482519" duration="676000" />
-      <workItem from="1748534152621" duration="6504000" />
+      <workItem from="1748534152621" duration="7213000" />
+      <workItem from="1748623044432" duration="3922000" />
+      <workItem from="1748692437914" duration="3334000" />
     </task>
     <task id="LOCAL-00001" summary="FoodBlog - start">
       <option name="closed" value="true" />
