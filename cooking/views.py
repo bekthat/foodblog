@@ -1,6 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Category, Posts
 from django.db.models import F
+from .forms import PostAddForm
 
 
 def index(request):
@@ -35,3 +36,20 @@ def post_detail(request, pk):
     }
 
     return render(request, 'cooking/article_detail.html', context)
+
+
+def post_add(request):
+    if request.method == 'POST':
+        form = PostAddForm(request.POST, request.FILES)
+        if form.is_valid():
+            post = Posts.objects.create(**form.cleaned_data)
+            post.save()
+            return redirect('post_detail', post.pk)
+    else:
+        form = PostAddForm(request.POST)
+
+    context = {
+        'form': form,
+        'title':'Добавить статью'
+    }
+    return render(request, 'cooking/article_add_form.html', context)
